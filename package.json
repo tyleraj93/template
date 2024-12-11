@@ -1,0 +1,30 @@
+{
+    "name": "template",
+    "version": "1.0.0",
+    "description": "Webpack &amp; Jest",
+    "private": true,
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack serve --open",
+        "build": "webpack" 
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tyleraj93/template.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tyleraj93/template/issues"
+    },
+    "homepage": "https://github.com/tyleraj93/template#readme",
+    "devDependencies": {
+        "css-loader": "^7.1.2",
+        "html-webpack-plugin": "^5.6.3",
+        "style-loader": "^4.0.0",
+        "webpack": "^5.96.1",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^5.1.0"
+    }
+}
